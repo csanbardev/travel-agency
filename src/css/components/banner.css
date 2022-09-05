@@ -1,0 +1,39 @@
+/* Banner styles */
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-height: 100vh;
+
+}
+
+#banner>section {
+  display: flex;
+  flex-direction: column;
+}
+
+#banner-img {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+#banner-form {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  gap: .4rem;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner-form button {
+  margin-top: 1rem;
+}
+
+#banner a {
+  margin-top: 2rem;
+}

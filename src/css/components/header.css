@@ -1,0 +1,19 @@
+/* Header styles */
+
+header {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  width: 2rem;
+}

@@ -1,0 +1,36 @@
+/* TopTravels styles */
+
+#top-travels>h3 {
+  padding-top: 1rem;
+  color: var(--highlight);
+}
+
+.travels-container {
+  padding-top: 1rem;
+  padding-left: 1.8rem;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(4, 8.8rem);
+  overflow: auto;
+  gap: 1rem;
+}
+
+.travels-container::-webkit-scrollbar {
+  display: none;
+}
+
+.travel img {
+  width: 100%;
+}
+
+.travel p {
+  word-wrap: break-word;
+}
+
+.travel-title {
+  color: var(--highlight);
+}
+
+.travel-description {
+  padding-right: 1.6rem;
+}
